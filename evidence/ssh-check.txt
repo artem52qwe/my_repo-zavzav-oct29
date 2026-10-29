@@ -1,0 +1,9 @@
+Temporary repository-scoped read-only deploy key; host keys obtained from authenticated HTTPS api.github.com/meta.
+$ git ls-remote git@github.com:artem52qwe/my_repo-zavzav-oct29.git
+28f827d4771ca6ea573dea0f5dfe6119edb4270f	HEAD
+e618f9285581aee49bba8eb5156a62d9c0a8ddaf	refs/heads/codex/python-standards
+28f827d4771ca6ea573dea0f5dfe6119edb4270f	refs/heads/main
+e618f9285581aee49bba8eb5156a62d9c0a8ddaf	refs/pull/1/head
+d2bb15bb05fcd856227156a2733d53ae8af61931	refs/pull/1/merge
+
+Exit: 0
