@@ -1,0 +1,61 @@
+$ git init -b main
+Initialized empty Git repository in C:/Users/chips/Documents/ChatGPT/Учеба/solutions-zavzav/1861/repo/.git/
+
+$ git config user.name Learning zavzav
+
+$ git config user.email zavzav@example.invalid
+
+$ git remote add origin https://github.com/artem52qwe/my_repo-zavzav-oct29.git
+
+$ git add .
+
+$ git commit -m Initialize main.py with the supplied example
+[main (root-commit) 28f827d] Initialize main.py with the supplied example
+ 2 files changed, 5 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 main.py
+
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+To https://github.com/artem52qwe/my_repo-zavzav-oct29.git
+ * [new branch]      main -> main
+
+$ git switch -c codex/python-standards
+Switched to a new branch 'codex/python-standards'
+
+$ git add .
+
+$ git commit -m Apply PEP 8 and isolate script entry point
+[codex/python-standards a9599fd] Apply PEP 8 and isolate script entry point
+ 2 files changed, 12 insertions(+), 2 deletions(-)
+ create mode 100644 .gitignore
+
+$ git push -u origin HEAD
+branch 'codex/python-standards' set up to track 'origin/codex/python-standards'.
+remote: 
+remote: Create a pull request for 'codex/python-standards' on GitHub by visiting:        
+remote:      https://github.com/artem52qwe/my_repo-zavzav-oct29/pull/new/codex/python-standards        
+remote: 
+To https://github.com/artem52qwe/my_repo-zavzav-oct29.git
+ * [new branch]      HEAD -> codex/python-standards
+
+$ git add .
+
+$ git commit -m Document standards and add licensed modular example
+[codex/python-standards e618f92] Document standards and add licensed modular example
+ 5 files changed, 76 insertions(+), 1 deletion(-)
+ create mode 100644 LICENSE
+ create mode 100644 reading_analysis/analysis.py
+ create mode 100644 reading_analysis/main.py
+ create mode 100644 reading_analysis/parser.py
+
+$ git push
+To https://github.com/artem52qwe/my_repo-zavzav-oct29.git
+   a9599fd..e618f92  codex/python-standards -> codex/python-standards
+
+$ git log --oneline --all --decorate
+e618f92 (HEAD -> codex/python-standards, origin/codex/python-standards) Document standards and add licensed modular example
+a9599fd Apply PEP 8 and isolate script entry point
+28f827d (origin/main, main) Initialize main.py with the supplied example
+
+$ git bundle create C:\Users\chips\Documents\ChatGPT\Учеба\solutions-zavzav\1861\history.bundle --all

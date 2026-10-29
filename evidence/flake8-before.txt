@@ -1,0 +1,2 @@
+main.py:1:23: E231 missing whitespace after ':'
+main.py:2:1: E305 expected 2 blank lines after class or function definition, found 0
